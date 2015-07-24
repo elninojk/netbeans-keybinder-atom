@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "netbeans-keymap:toggle"
   },
-  "repository": "https://github.com/atom/netbeans-keymap",
+  "repository": "https://github.com/elninojk/netbeans-keybinder-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
