@@ -1,10 +1,9 @@
 {
   "name": "netbeans-keymap",
   "main": "./lib/netbeans-keymap",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Netbeans keymap for atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "netbeans-keymap:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
