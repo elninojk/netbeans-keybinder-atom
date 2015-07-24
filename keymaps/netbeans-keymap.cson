@@ -1,0 +1,42 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+#
+# 'atom-workspace':
+#   'ctrl-alt-o': 'netbeans-keymap:toggle'
+
+# Unset existing commands
+'body':
+  'ctrl-o': 'core:nop'
+  'cmd-o': 'core:nop'
+# Common keybindings (all platforms)
+'atom-text-editor:not([mini])':
+  'alt-shift-up': 'editor:move-line-up'
+  'alt-shift-down': 'editor:move-line-down'
+
+
+  # Win & Linux keybindings
+'.platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor:not([mini])':
+  #Working
+  'ctrl-e': 'editor:delete-line'
+  'ctrl-shift-i': 'editor:auto-indent'
+  'ctrl-g': 'go-to-line:toggle'
+  'ctrl-alt-down': 'editor:duplicate-lines'
+  'ctrl-alt-j': 'editor:join-lines'
+  'ctrl-h': 'find-and-replace:find-next-selected'
+
+  #Not working
+  'ctrl-U': 'editor:upper-case'
+  'ctrl-L': 'editor:lower-case'
+  'alt-/': 'autocomplete-plus:activate'
+  'ctrl-shift-p': 'bracket-matcher:go-to-matching-bracket'
+  # Netbeans navigation not working ones are commented
+  'ctrl-alt-o': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-o': 'fuzzy-finder:toggle-buffer-finder'
+  'ctrl-g':'editor:'
+  # 'ctrl-shift-o':'fuzzy-finder:toggle-git-status-finder'
