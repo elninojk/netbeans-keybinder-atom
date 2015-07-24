@@ -1,8 +1,8 @@
 {
   "name": "netbeans-keymap",
   "main": "./lib/netbeans-keymap",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Netbeans keymap for atom",
   "keywords": [
   ],
   "activationCommands": {
