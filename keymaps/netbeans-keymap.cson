@@ -29,6 +29,8 @@
   'ctrl-alt-down': 'editor:duplicate-lines'
   'ctrl-alt-j': 'editor:join-lines'
   'ctrl-h': 'find-and-replace:find-next-selected'
+  'ctrl-shift-down': 'editor:duplicate-lines'
+  'ctrl-shift-up': 'editor:duplicate-lines'
 
   #Not working
   #'ctrl-U': 'editor:upper-case'
