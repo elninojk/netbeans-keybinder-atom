@@ -31,14 +31,3 @@
   'ctrl-h': 'find-and-replace:find-next-selected'
   'ctrl-shift-down': 'editor:duplicate-lines'
   'ctrl-shift-up': 'editor:duplicate-lines'
-
-  #Not working
-  #'ctrl-U': 'editor:upper-case'
-  #'ctrl-L': 'editor:lower-case'
-  #'alt-/': 'autocomplete-plus:activate'
-  #'ctrl-shift-p': 'bracket-matcher:go-to-matching-bracket'
-  # Netbeans navigation not working ones are commented
-  #'ctrl-alt-o': 'fuzzy-finder:toggle-file-finder'
-  #'ctrl-o': 'fuzzy-finder:toggle-buffer-finder'
-  #'ctrl-g':'editor:'
-  # 'ctrl-shift-o':'fuzzy-finder:toggle-git-status-finder'
