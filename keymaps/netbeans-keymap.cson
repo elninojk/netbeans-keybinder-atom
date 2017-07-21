@@ -25,6 +25,7 @@
   #Working
   'ctrl-e': 'editor:delete-line'
   'ctrl-shift-i': 'editor:auto-indent'
+  'ctrl-shift-c': 'editor:toggle-line-comments'
   'ctrl-g': 'go-to-line:toggle'
   'ctrl-alt-down': 'editor:duplicate-lines'
   'ctrl-alt-j': 'editor:join-lines'
